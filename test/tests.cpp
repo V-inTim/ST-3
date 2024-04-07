@@ -48,7 +48,7 @@ TEST_F(TimedDoorTest, TEST_LOCK_AND_UNLOCK_EXCEPTIONS) {
 }
 
 TEST_F(TimedDoorTest, TEST_NO_THROW_STATE) {
-    EXPECT_NO_THROW(door->throwState(); , std::runtime_error);
+    EXPECT_NO_THROW(door->throwState(););
 }
 
 TEST_F(TimedDoorTest, TEST_THROW_STATE) {
