@@ -1,4 +1,4 @@
-// Copyright 2021 GHA Test Team
+// Copyright 2024 Vinichuk Timofey
 
 #ifndef INCLUDE_TIMEDDOOR_H_
 #define INCLUDE_TIMEDDOOR_H_
@@ -46,7 +46,7 @@ class Timer {
   TimerClient *client;
   void sleep(int);
  public:
-  void tregister(int, TimerClient*);
+  void tregister(int, TimedDoor*);
 };
 
 #endif  // INCLUDE_TIMEDDOOR_H_
